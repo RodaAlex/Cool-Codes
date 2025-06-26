@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Smart Teleprompter</title>
+  <title>Timed Teleprompter</title>
   <style>
     body {
       font-family: Arial, sans-serif;
@@ -81,7 +81,7 @@
 </head>
 <body>
 
-  <h1>Smart Teleprompter</h1>
+  <h1>Timed Teleprompter</h1>
 
   <div id="controls">
     <input type="number" id="duration" placeholder="Duration (seconds)">
@@ -89,7 +89,7 @@
 
     <label style="color: white;">
       Font Size: <span id="fontSizeValue">24</span>px
-      <input type="range" id="fontSizeSlider" min="16" max="72" value="24">
+      <input type="range" id="fontSizeSlider" min="16" max="200" value="24">
     </label>
 
     <button onclick="startTeleprompter()">Start Teleprompter</button>
@@ -155,4 +155,3 @@
 
 </body>
 </html>
-
